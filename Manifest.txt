@@ -13,8 +13,12 @@ script/destroy
 script/generate
 script/txt2html
 setup.rb
+spec/makea_spec.rb
+spec/spec.opts
+spec/spec_helper.rb
 tasks/deployment.rake
 tasks/environment.rake
+tasks/rspec.rake
 tasks/website.rake
 test/test_helper.rb
 test/test_makea.rb

@@ -4,7 +4,51 @@
 
 == DESCRIPTION:
 
-FIX (describe your package)
+=== Scenarios
+
+==== Cairngorm
+
+starting at .
+in the flex/src root directory in the com.site package structure
+
+make a 
+
+cairngorm
+
+[options]
+* directory structure
+* model locator named FooModelLocator
+* front controller named FooFrontController
+* service locator
+* command sequence named DoThing
+  - which is composed of
+    > a command named DoThingCommand
+    > an event named DoThingEvent
+* responder sequence named GetThingFromServer using the D delegate
+    > a responder named GetThingFromServerCommand
+    > an event named GetThingFromServerEvent
+
+if it doesn't already exist
+
+==== Rails
+
+starting at .
+
+make a 
+
+rails
+
+[options]
+* project named foo
+* migration named foo
+* model named foo with properties bar, which is a string and baz which is an integer
+ - which includes
+	> a unit test for foo
+	> a fixture file for foo
+
+* controller named foo with actions bar and baz
+* scaffold named foo with properties bar, which is a string
+(You get the picture)
 
 == FEATURES/PROBLEMS:
 
